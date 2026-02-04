@@ -457,4 +457,9 @@ footer {
   .music-grid {
     grid-template-columns: 1fr;
   }
+  .contact-item .icon i {
+    font-size: 1.5rem;
+    width: 24px;
+    text-align: center;
+  }
 }
