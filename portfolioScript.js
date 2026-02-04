@@ -1,6 +1,6 @@
 // Dynamically load images from 'port' folder for photography section
 const photoGallery = document.getElementById('photo-gallery');
-const totalImages = 12; // Adjust this number to show how many photos you want on main portfolio
+const totalImages = 11; // Adjust this number to show how many photos you want on main portfolio
 
 // Load a subset of photos for the main portfolio page
 for(let i = 1; i <= totalImages; i++) {
