@@ -435,7 +435,9 @@ p {
 }
 
 .calendar-container iframe {
-  width: 100%;
+  width: 100% !important;
+  min-width: 100%;
+  display: block;
   height: 600px;
   border: 2px solid #e0f2eb;
   border-radius: 12px;
