@@ -366,66 +366,8 @@ p {
   color: #ff9776;
 }
 
-/* Music Section */
-.music-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin: 2rem auto;
-  max-width: 900px;
-}
-
-.music-item {
-  text-align: center;
-  padding: 1.5rem;
-  background: #f8fcfa;
-  border-radius: 16px;
-  border: 2px solid #e0f2eb;
-  transition: all 0.3s ease;
-}
-
-.music-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(77, 169, 156, 0.15);
-  border-color: #b3e5cc;
-}
-
-.music-placeholder {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, #b3e5cc, #ff9776);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.music-item h4 {
-  font-size: 1.1rem;
-  color: #2b2b2b;
-  margin-bottom: 0.3rem;
-}
-
-.music-item p {
-  font-size: 0.95rem;
-  color: #666;
-}
-
-.music-note {
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 1rem;
-  color: #666;
-}
-
 /* Calendar Container */
-.calendar-container {
-  max-width: 900px;
-  margin: 3rem auto 0;
-  padding: 2rem;
-  background: #f8fcfa;
-  border-radius: 16px;
-  border: 2px solid #e0f2eb;
-}
+
 
 .calendar-container h3 {
   text-align: center;
@@ -436,33 +378,12 @@ p {
 
 .calendar-container iframe {
   width: 100% !important;
-  min-width: 100%;
+  max-width: 100%;
   display: block;
-  height: 600px;
+  height: 900px;
   border: 2px solid #e0f2eb;
   border-radius: 12px;
   margin-bottom: 1.5rem;
-}
-
-.calendar-container a {
-  display: inline-block;
-  background: #4da99c;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(77, 169, 156, 0.3);
-  text-align: center;
-}
-
-.calendar-container a:hover {
-  background: #3d8a7f;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(77, 169, 156, 0.4);
 }
 
 /* Contact Section */
@@ -581,22 +502,11 @@ footer {
   .music-grid {
     grid-template-columns: 1fr;
   }
+  
   .contact-item .icon i {
     font-size: 1.5rem;
     width: 24px;
     text-align: center;
   }
   
-  .calendar-container {
-    padding: 1.5rem;
-    margin: 2rem 1rem 0;
-  }
-  
-  .calendar-container h3 {
-    font-size: 1.4rem;
-  }
-  
-  .calendar-container iframe {
-    height: 400px;
-  }
 }
